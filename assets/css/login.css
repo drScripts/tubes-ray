@@ -1,0 +1,131 @@
+body {
+    background: #fad2d9;
+}
+
+main {
+	text-align : center;
+}
+
+main ::placeholder {
+    color: silver;
+    margin-left: 20px;
+}
+
+main input[type=text], main input[type=password], main input[type=submit]{
+	border-radius: 25px;
+	padding: 12px 20px;
+	font-size: 13px;
+	width: 450px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+main input[type=text], main input[type=password] {
+	background-color: white;
+    height: 20px;
+}
+
+main input[type=text]:focus, main input[type=password]:focus {
+	box-shadow: 0px 0px 3px 3px #6D0014;
+}
+
+main input[type=submit] {
+	background-color: #FFCDCD;
+	color: #6D0014;
+    width: 490px;
+    height: 40px;
+	font-size: 16px;
+}
+
+main input[type=submit]:hover {
+  background-color: #6D0014;
+  color: #FFCDCD;
+  cursor: pointer;
+}
+
+a {
+	color: #07689F;
+}
+
+input[type=text], input[type=password], input[type=submit], a, footer textarea, input[type=email] {
+	font-family: 'RocknRoll One Regular';
+}
+
+a:hover{
+	color: red;
+}
+
+.f_line {
+	font-family: 'Ramaraja';
+	font-size: 30px;
+}
+
+.s_line {
+	font-family: 'Rasa Regular';
+	font-size: 18px;
+}
+
+p {
+	font-family: 'Rokkitt';
+}
+
+footer{
+	background-color: #F7F7F7;
+	position: absolute;
+	width: 100%;
+	height: 135px;
+	bottom: 0px;
+	left: -18px;
+	padding: 8px;
+}
+
+footer h2 {
+	font-family: 'Rasa Regular';
+}
+
+footer .container {
+	margin-left: 13px;
+	padding-left: 25px;
+	height: 100%;
+	width: 340px;
+	float: left;
+	line-height: 6px;
+	border-right: 1px solid black;
+}
+
+footer .emailUs{
+	width: 680px;
+	border: none;
+}
+
+footer .emailUs .left {
+	width: 130px;
+}
+
+footer .emailUs .right {
+	width: 530px;
+	padding: 10px;
+	color: #F7F7F7;
+}
+
+footer .emailUs .left, footer .emailUs .right {
+	float: left;
+}
+
+footer textarea  {
+	color: gray;
+}
+
+footer input[type=email] {
+	padding-left: 5px;
+}
+
+footer input[type=submit] {
+	cursor: pointer;
+}
+
+footer textarea, footer input[type=email], footer input[type=submit] {
+	border-radius: 5px;
+	font-size: 12px;
+}
+

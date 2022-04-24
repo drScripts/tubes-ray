@@ -1,0 +1,156 @@
+body {
+    background: #fad2d9;
+}
+
+header {
+    display: flex;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    margin: 50px;
+}
+
+header img {
+    width: 15%;
+}
+
+.links {
+    flex: 2%;
+    margin-top: 40px;
+    margin-left: 65%;
+}
+
+.links a {
+    padding-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+main h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 400%;
+    margin-left: 10%;
+    line-height: 80px;
+    margin-top: 90px;
+    color: rgba(146, 4, 4, 1);
+}
+
+main p {
+    font-family: 'Rozha One', serif;
+    font-size: 190%;
+    margin-left: 10%;
+    padding-top: 30px;
+    line-height: 40px;
+    color: rgba(146, 4, 4, 1);
+}
+
+input[type=text] {
+    font-size: 20px;
+    margin-left: 10%;
+    border-radius: 25px;
+    width: 700px;
+    height: 46px;
+    background: #FFFFFF;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchButton {
+    width: 40px;
+    height: 40px;
+    margin-left: 10%;
+    border: 1px solid rgba(228, 228, 228, 1);
+    background: rgba(228, 228, 228, 1);
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 61.9%;
+    left: 56.5%;
+    transform: translate(-50%, -50%);
+}
+
+main img {
+    position: absolute;
+    width: 26%;
+    left: 60%;
+    top: 17%;
+}
+
+footer {
+    background-color: #F7F7F7;
+    position: absolute;
+    width: 100%;
+    height: 135px;
+    bottom: 0px;
+    left: -18px;
+    padding: 8px;
+}
+
+footer h2 {
+    font-family: 'Rasa Regular';
+}
+
+footer .container {
+    margin-left: 13px;
+    padding-left: 25px;
+    height: 100%;
+    width: 340px;
+    float: left;
+    line-height: 6px;
+    border-right: 1px solid black;
+}
+
+footer .emailUs {
+    width: 680px;
+    border: none;
+}
+
+footer .emailUs .left {
+    width: 130px;
+}
+
+footer .emailUs .right {
+    width: 530px;
+    padding: 10px;
+    color: #F7F7F7;
+}
+
+footer .emailUs .left,
+footer .emailUs .right {
+    float: left;
+}
+
+footer textarea {
+    color: gray;
+}
+
+footer input[type=email] {
+    padding-left: 5px;
+}
+
+footer input[type=submit] {
+    cursor: pointer;
+}
+
+footer textarea,
+footer input[type=email],
+footer input[type=submit] {
+    border-radius: 5px;
+    font-size: 12px;
+}

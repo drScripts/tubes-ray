@@ -1,0 +1,33 @@
+body {
+
+    background-color: #f6bdc7;
+}
+
+.row .left-card {
+    background-color: none;
+}
+
+.card {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.right-card textarea {
+    margin: 20px;
+    width: 600px;
+    height: 200px;
+}
+
+.right-card p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.right-card button {
+    border: none;
+    box-shadow: 5px 4px 10px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 108, 108);
+}

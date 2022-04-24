@@ -1,0 +1,156 @@
+body {
+    background-color: #ffe0e5;
+}
+
+header {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header img {
+    width: 15%;
+    height: 15%;
+}
+
+.header {
+    position: absolute;
+    margin-top: 50px;
+    right: 13%;
+}
+
+.profileImageHeader {
+    position: absolute;
+    border-radius: 50%;
+    width: 4%;
+    height: 8%;
+    margin-top: 30px;
+    margin-left: 65%;
+}
+
+.inputSearch {
+    font-size: 20px;
+    margin-top: 15%;
+    margin-left: 40%;
+    border-radius: 50px;
+    width: 430%;
+    height: 80px;
+    background: #FFFFFF;
+}
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 8.8%;
+    left: 77.8%;
+    transform: translate(-50%, -50%);
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchButton {
+    width: 72px;
+    height: 72px;
+    margin-left: 10%;
+    border: 1px solid rgba(228, 228, 228, 1);
+    background: rgba(228, 228, 228, 1);
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.links {
+    flex: 2%;
+    margin-top: -80px;
+    margin-left: 65%;
+}
+
+.links a {
+    padding-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+main input[type=text],
+main input[type=password] {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    margin: 5% 10%;
+    display: inline-block;
+    box-shadow: 7px -7px grey;
+}
+
+.tab {
+    display: inline-block;
+    padding-right: 55%;
+}
+
+.atas {
+    margin-left: 10px;
+    padding: 5px;
+    width: 96%;
+}
+
+.isi {
+    display: flex;
+    grid-template-columns: 7% 60% 13% 20%;
+}
+
+.sub-left {
+    padding: 10px;
+    margin-left: 15px;
+    width: 73%;
+    height: 70%;
+    border-radius: 5px;
+    /* background-color: #f5ccff; */
+}
+
+.sub-right {
+    padding: 5px;
+    width: 20%;
+    height: 100%;
+    margin: auto;
+}
+
+img {
+    margin-left: 23%;
+    margin-top: -40%;
+}
+
+.img-circle {
+    width: 100px;
+    border-radius: 50% !important;
+}
